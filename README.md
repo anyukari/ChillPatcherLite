@@ -17,7 +17,7 @@
 
 ![alt text](imgs/overview.png)
 
-从 [BeyondtheApex/ChillPatcher](https://github.com/BeyondtheApex/ChillPatcher) **V1.3.4.1**
+从 [ChillPatcher](https://github.com/BeyondtheApex/ChillPatcher) **V1.3.4.1**
 中完整移植出来的两个 UI 功能，大佬改的UI界面特别好看，但是后面mod功能超级多太复杂了，就把我最喜欢的这个拆出来做了个轻量版
 
 音乐的话我用的 [Chill Music Information Sync (音乐信息同步)](https://github.com/Cainongw/ChillMusicInformationSyncMod) 同步网易云的音乐，感觉更方便一些
