@@ -5,7 +5,7 @@
 [![.NET Framework 4.7.2](https://img.shields.io/badge/.NET%20Framework-4.7.2-blue.svg)](https://dotnet.microsoft.com/download/dotnet-framework/net472)
 [![BepInEx](https://img.shields.io/badge/BepInEx-Plugin-green.svg)](https://github.com/BepInEx/BepInEx)
 
-一个用于游戏《放松时光：与你共享Lo-Fi故事》的 BepInEx 插件：**更改UI布局，增大音乐封面**
+从 [ChillPatcher](https://github.com/BeyondtheApex/ChillPatcher)拆出来用于游戏《放松时光：与你共享Lo-Fi故事》的 BepInEx 插件：**更改UI布局，增大音乐封面**
 
 ---
 
