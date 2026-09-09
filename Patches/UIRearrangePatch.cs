@@ -74,12 +74,9 @@ public static class UIRearrangePatch
         public const string CenterIcons = RootPath + "/CenterIcons";
         public const string RightIcons = RootPath + "/RightIcons";
 
-        public const string IconExit = "IconExit_Button";
-        public const string IconStory = "IconStory_Button";
-        public const string IconCollaboToAlterEgo = "IconCollaboToAlterEgo_Button";
-        public const string IconDecoration = "IconDecoration_Button";
-        public const string IconEnviroment = "IconEnviroment_Button";
-        public const string IconMusicPlaylist = "IconMusicPlaylist_Button";
+            public const string IconDecoration = "IconDecoration_Button";
+            public const string IconEnviroment = "IconEnviroment_Button";
+            public const string IconMusicPlaylist = "IconMusicPlaylist_Button";
     }
 
     /// <summary>Hook 到 FacilityMusic.Setup（UI 初始化完成后重排列）。</summary>
@@ -457,12 +454,6 @@ public static class UIRearrangePatch
             new Vector3(TopIconsContainerScale, TopIconsContainerScale, 1f);
 
         LayoutRebuilder.ForceRebuildLayoutImmediate(rectTransform);
-    }
-
-    /// <summary>重置状态（场景切换时供外部调用）。</summary>
-    public static void Reset()
-    {
-        _hasRearranged = false;
     }
 
     /// <summary>

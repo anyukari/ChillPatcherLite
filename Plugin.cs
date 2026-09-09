@@ -7,7 +7,6 @@ using ChillPatcherLite.Cover;
 using ChillPatcherLite.Compatibility;
 using ChillPatcherLite.Patches;
 using HarmonyLib;
-using UnityEngine;
 
 namespace ChillPatcherLite;
 
